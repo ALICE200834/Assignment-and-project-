@@ -1,0 +1,7 @@
+def roll_dice():
+    return random.randit(1,6)
+    printt("Rolling a dice")
+    result = roll_dice()
+    print("You got":, result)
+    
+    

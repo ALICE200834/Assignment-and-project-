@@ -1,0 +1,58 @@
+favourite food =[]
+print("Welcome to favourite food")
+print("Please enter your favourite food:")
+favourite_food = input()
+favourite_foods.append(favourite_food)
+
+display_menu()
+choice = input("choose an option:")
+
+if choice == "1"
+food = input("Enter a food:")
+favourite_foods.append(food)
+elif choice == "2"
+food = input("Emter food to remove:")
+if food in favourite_foods:
+    favourite_fods.remove(food)
+else:
+    print("Food not found")
+elif choice =="3":
+    print("Your favourite food:")
+  for  food in favourite_foods:
+    print(food)
+elif choice =="4"
+    print("You have", len(favourite_foods), "favourite foods.")
+elif choice == "5"
+    favourite_foods.clear()
+    print("List cleare!")
+elif choice == "6"
+copied_list = favourite_foods.copy()
+print("copied list:",copied_list)
+elif choice == "7":
+new_foods = input("Enter new foods (comma-separated:):")
+
+
+elif choice "8":
+food = input("Ebter a food to find":)
+if food in favourite_foods:
+    print("Food found at index", favourite_foods.index(food))
+    else:
+        print("Food not found!")
+elif choice =="9"   
+food = input("Enter a food to insert:")
+index = int(input("Enter index:"))
+favourite_foods.insert(index,food)
+elif choice == "10"
+if favourite_foods:
+    print("Popped food:", favourite_foods.pop()
+else:
+    print("List is empty")
+elif choice == "11":
+favourite_foods.reverse()
+print("List reversed")
+elif choice== "12":
+favourite_foods.sort()
+print("List reversed")
+
+
+``
